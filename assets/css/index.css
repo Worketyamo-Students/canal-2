@@ -78,6 +78,11 @@ header>nav>ul>li>a:hover {
 
 }
 
+.nav-resp {
+    display: none;
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 600px) {
 
     header>nav>ul,
@@ -85,10 +90,14 @@ header>nav>ul>li>a:hover {
         display: none;
         visibility: hidden;
     }
+
     header>nav {
         justify-content: space-between;
         padding: 0;
     }
-  
-}
 
+    .nav-resp {
+        display: inline-block;
+        visibility: visible;
+    }
+}
