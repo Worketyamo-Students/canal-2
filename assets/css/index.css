@@ -91,7 +91,6 @@ header>nav>ul>li>a:hover {
 .hero {
     width: 100%;
     height: 80%;
-    background-color: blue;
     display: flex;
     flex-direction: row;
 
@@ -99,12 +98,12 @@ header>nav>ul>li>a:hover {
 
 .hero_francis {
     flex: 2;
-    width: 100%;
-    height: 100%;
+
     background: linear-gradient(10.82deg, rgb(0, 0, 0) 1.55%, rgba(0, 0, 0, 0) 51.18%), url(../img/landing/francis.png) center/cover no-repeat;
     border-radius: 2rem;
     color: #fff;
     position: relative;
+    margin: 1rem;
 
 }
 
@@ -128,18 +127,25 @@ header>nav>ul>li>a:hover {
 }
 
 .hero_articles {
-    width: 100%;
-    height: 100%;
+
     flex: 1;
     background-color: #fff;
+    margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
+
+
 
     header>nav>ul,
     .nav-button {
         display: none;
         visibility: hidden;
+    }
+
+    .hero {
+        flex-direction: column;
+        height: 100%;
     }
 
     header>nav {
@@ -151,6 +157,26 @@ header>nav>ul>li>a:hover {
         display: inline-block;
         visibility: visible;
         color: var(--primary-color);
+        padding-right: 1rem;
     }
 
+    .hero_francis {
+        flex: 1;
+        border-radius: 0;
+    }
+
+    .hero_francis__text>h1 {
+        font-size: 1.7rem;
+        width: 90%;
+    }
+    
+    .hero_francis__text>p {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .hero_francis__text {
+        bottom: 1rem;
+        left: 1rem;
+    }
 }
