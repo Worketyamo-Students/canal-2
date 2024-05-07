@@ -6,7 +6,8 @@
     --title-color: rgba(0, 14, 1, 1);
     --text-color: rgba(0, 14, 1, 0.84);
     --icon-color: rgba(121, 172, 120, 1);
-    --font-size: 10px --gradient: linear-gradient(10.82deg, rgba(0, 0, 0, 0.95) 1.55%, rgba(0, 0, 0, 0) 51.18%);
+    --font-size: 10px;
+    --gradient: linear-gradient(10.82deg, rgba(0, 0, 0, 0.95) 1.55%, rgba(0, 0, 0, 0) 51.18%);
     --font-family: "IBM Plex Sans Hebrew", sans-serif;
     --neutral: #f7ffd5f0;
 }
@@ -23,10 +24,15 @@ html {
 
 body {
     width: 100vw;
-    height: 100%;
+    min-height: 100%;
     overflow-x: hidden;
     font-family: var(--font-family);
     display: flex;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
 }
 
 header>nav {
@@ -35,7 +41,6 @@ header>nav {
     justify-content: space-around;
     height: 8rem;
     font-size: 1.8rem;
-    position: fixed;
     width: 100%;
     padding: 0 2rem;
 }
@@ -83,6 +88,52 @@ header>nav>ul>li>a:hover {
     visibility: hidden;
 }
 
+.hero {
+    width: 100%;
+    height: 80%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hero_francis {
+    flex: 2;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10.82deg, rgb(0, 0, 0) 1.55%, rgba(0, 0, 0, 0) 51.18%), url(../img/landing/francis.png) center/cover no-repeat;
+    border-radius: 2rem;
+    color: #fff;
+    position: relative;
+
+}
+
+.hero_francis__text {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    border-left: 1rem solid var(--primary-color);
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.hero_francis__text>h1 {
+    font-size: 3rem;
+    width: 90%;
+}
+
+.hero_francis__text>p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.hero_articles {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background-color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
 
     header>nav>ul,
@@ -99,5 +150,7 @@ header>nav>ul>li>a:hover {
     .nav-resp {
         display: inline-block;
         visibility: visible;
+        color: var(--primary-color);
     }
+
 }
