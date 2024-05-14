@@ -36,6 +36,73 @@ header {
     width: 100%;
     height: 100vh;
 }
+h2{
+    color:var(--primary-color);
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+.p1{
+    font-size: 2rem;
+    font-weight: 300;
+    width: 70%;
+    padding-top: 5rem;
+
+}
+.icon2{
+    display: flex;
+    gap:2rem;
+    padding-top: 6rem;
+}
+.i1{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20%;
+    background-color: var(--primary-color);
+    
+}
+.i2{
+    background-color: #fff;
+}
+.l2{
+    color:var(--primary-color);
+    width: 3rem;
+    height: 3rem;   
+}
+.l1{
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.8rem 0.7rem;
+}
+.i3{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20%;
+  
+    
+}
+.l3{
+    width: 2.5rem;
+    height: 2.5rem;
+    color:var(--primary-color);
+}
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+.MATIN {
+    display: flex;
+    padding-top: 2rem;
+}
+.canal1{
+    width: 60%;
+    height: 20rem;
+}
+.info{
+    width: 50%;
+    height: 25rem;
+}
 
 .pro {
     text-align:center ;
@@ -227,6 +294,7 @@ header>nav>ul>li>a:hover {
 }
 @media only screen and (max-width: 600px) {
 
+  
 
     .section1{
         display: flex;
