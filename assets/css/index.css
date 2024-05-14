@@ -37,6 +37,28 @@ header {
     height: 100vh;
 }
 
+.pro {
+    text-align:center ;
+    font-size: 4.2rem;
+    color: #000E01;
+}
+iframe{
+    width: 78%;
+    height: 50rem;
+    margin:0 auto;
+    border-radius: 2rem;
+    display: block;
+
+}
+.you{
+    font-size: 4.2rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+    padding-top: 25rem;
+    width: 100%;
+    padding-left: 15rem;
+    color: #000E01;
+}
 .section1{
     display: flex;
     justify-content: space-around;
@@ -72,10 +94,6 @@ header {
     height: 20rem;
     
 }
-
-
-
-
 
 header>nav {
     display: flex;
