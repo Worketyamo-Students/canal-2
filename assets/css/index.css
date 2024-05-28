@@ -367,6 +367,44 @@ h3{
     width: 60rem;
     height: 30rem;
 }
+.publicité{
+    padding-top: 5rem;
+    display: flex;
+    height: 40rem;
+    width: 3rem;
+}
+.bor1{
+    border-right: solid var(--primary-color) 1rem;
+    padding: 3rem;
+    align-self: auto;
+    margin-right: 14rem;
+    position: relative;
+    margin-top: 2rem;
+
+}
+.bor2{
+    border-left: solid var(--primary-color) 1rem;
+    padding: 3rem;
+    align-self: baseline;
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+h4{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    width: 30rem;
+    transform: rotate(-90deg);
+    margin-top: 14rem;
+    
+}
+.publi{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 @media only screen and (max-width: 600px) {
     .h{
