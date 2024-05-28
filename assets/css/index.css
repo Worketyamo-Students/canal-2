@@ -355,7 +355,6 @@ h3{
 }
 .journal{
     display: flex;
-    background-color: aqua;
     height: 50rem;
     justify-content: space-evenly;
    
