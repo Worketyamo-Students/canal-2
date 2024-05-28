@@ -31,7 +31,6 @@ body {
     font-family: var(--font-family);
     display: flex;
 }
-
 header {
     width: 100%;
     height: 100vh;
@@ -292,6 +291,84 @@ header>nav>ul>li>a:hover {
     font-size: 1.6rem;
     font-weight: bold;
 }
+
+.ensemble{
+    display: flex;
+    height: 40rem;
+    margin-top: 28rem;
+    justify-content: space-evenly;
+    gap:16rem;
+
+}
+.nous{
+    width: 30rem;
+    height: 30rem;
+    border: 0.1rem solid;
+}
+.image1{
+    width: 25rem;
+    height: 20rem;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.Arene{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.tongue{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.comedie{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.presse{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.N3{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-size: 1.3rem;
+    padding-top: 7rem;
+}
+h3{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.span1{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+.journal{
+    display: flex;
+    background-color: aqua;
+    height: 50rem;
+    justify-content: space-evenly;
+   
+}
+.canal3{
+    width: 80rem;
+    height: 30rem;
+}
+.info2{
+    width: 60rem;
+    height: 30rem;
+}
+
 @media only screen and (max-width: 600px) {
     .h{
         width:70%;
