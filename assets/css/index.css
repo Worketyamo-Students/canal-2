@@ -28,6 +28,8 @@ body {
     overflow-x: hidden;
     font-family: var(--font-family);
     display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 header {
@@ -223,4 +225,199 @@ header>nav>ul>li>a:hover {
     .hero_articles_item  {
         width: 100%;    
     }
+}
+
+.announces{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-left: 7rem;
+}
+.anounces1{
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: row; 
+    flex: 1;
+    padding: 3rem, 0rem ,3rem,.9rem;
+
+}
+.anounces_image>img{
+    height: 40vh;
+    width: 100%rem;
+    border-radius: 3rem;
+}
+#presidents{
+    height: 35rem;
+    width: 84%;
+    overflow: hidden;
+    position:relative;
+    object-fit:cover;
+}
+.announces_text>p{
+    color: #79AC78;
+    font-size: 1rem;
+}
+.announces_texte>h2{
+    font-size: 1.2rem;
+}
+.youtube-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.youtube{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.youtube>h2{
+font-size: 4.8rem;
+justify-content: center;
+align-self: center;
+}
+iframe{
+
+    justify-content: center;
+    align-self: center;
+    border-radius: 2rem;
+
+}
+
+/* Section Canal Matin: */
+.canal-matin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 2rem 6rem 2rem;
+
+}
+
+.canal-matin>h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: IBM Plex Sans Hebrew;
+}
+
+.canal-matin-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 47rem;
+}
+.canal-matin-vid{
+    flex: 1;
+}
+
+.canal-matin-vid>iframe{
+    border-radius: 2rem;
+}
+
+.canal-matin-text{
+    flex: 1;
+    padding: 4rem;
+}
+
+.canal-matin-text>h2{
+    font-family: IBM Plex Sans Hebrew;
+    font-size: 3rem;
+}
+.canal-matin-text>p{
+    font-size: 2.4rem;
+}
+
+.ionicons>a>i{
+    margin: 2rem;
+}
+#instagram{
+    margin-left: 0rem;
+}
+
+/* FIN CANAL MATIN */
+
+/* Debut apres-canal-matin */
+
+#nous-chez-vous{
+    width: 34rem;
+    height: 35rem;
+}
+.nous-chez-vous>img{
+    border: solid #D9D9D9 .2rem;
+    justify-content: center;
+    align-self: center;
+    border-radius: 2rem;
+}
+
+#anounces_image{
+    border-color:#D9D9D9 ;
+    justify-content: center;
+    align-items: center;
+}
+/* Fin d'apres Canal */
+/* Debut de C'est comment */
+.c_est-comment{
+margin: 0 auto;
+}
+
+/* Fin de c'est comment */
+
+/* Debut de Espace publicité */
+
+.espace-publicite{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.espace-publicite-txt{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.espace-publicite-txt>h1{
+    width: 8rem;
+    height: 58rem;
+    color: #79AC78;
+    font-family: IBM Plex Sans Hebrew;
+    display: flex;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 3rem;
+    justify-content: center;
+    align-content: center;
+    flex: 1rem;
+}
+.espace-publicite-txt>span{
+    color: #79AC78;
+}
+
+.espace-publicite>img{
+    flex: 3;
+    width: 139rem;
+    height: 58rem;
+}
+/* FIN ESPACE PUB */
+footer{
+    height: 40rem;
+    width: 100%;
+    background-color: #79AC78;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>img{
+    width: 37rem;
+    height: 21rem;
+    flex: 1;
+}
+footer>ionicons{
+    flex: 1;
 }
